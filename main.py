@@ -2,8 +2,6 @@ import base_model
 import advertiser
 import ad
 
-print("ss")
-
 baseAdvertising = base_model.BaseAdvertising()
 advertiser1 = advertiser.Advertiser(1, 'name1')
 advertiser2 = advertiser.Advertiser(2, 'name2')
