@@ -1,13 +1,13 @@
-import base_model
-import advertiser
-import ad
+from base_model import BaseAdvertising
+from advertiser import Advertiser
+from ad import Ad
 
-baseAdvertising = base_model.BaseAdvertising()
-advertiser1 = advertiser.Advertiser(1, 'name1')
-advertiser2 = advertiser.Advertiser(2, 'name2')
+baseAdvertising = BaseAdvertising()
+advertiser1 = Advertiser(1, 'name1')
+advertiser2 = Advertiser(2, 'name2')
 
-ad1 = ad.Ad(1, 'title1', 'img-url1', 'link1', 'advertiser1')
-ad2 = ad.Ad(2, 'title2', 'img-url2', 'link2', 'advertiser2')
+ad1 = Ad(1, 'title1', 'img-url1', 'link1', 'advertiser1')
+ad2 = Ad(2, 'title2', 'img-url2', 'link2', 'advertiser2')
 
 baseAdvertising.describeMe()
 ad2.describeMe()
@@ -25,5 +25,5 @@ advertiser2.setName('new name')
 advertiser2.getName()
 ad1.getClicks()
 advertiser2.getClicks()
-advertiser.Advertiser.getTotalClicks()
-advertiser.Advertiser.help()
+Advertiser.getTotalClicks()
+Advertiser.help()

@@ -1,9 +1,9 @@
-import base_model
-import advertiser
+from base_model import BaseAdvertising
+from advertiser import Advertiser
 
 
-class Ad(base_model.BaseAdvertising):
-    def __int__(self, id, title, imgUrl, link, adv: advertiser.Advertiser):
+class Ad(BaseAdvertising):
+    def __int__(self, id, title, imgUrl, link, adv: Advertiser):
         self.__id = id
         self.__title = title
         self.__imgUrl = imgUrl

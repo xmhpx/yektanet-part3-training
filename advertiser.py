@@ -1,7 +1,7 @@
-import base_model
+from base_model import BaseAdvertising
 
 
-class Advertiser(base_model.BaseAdvertising):
+class Advertiser(BaseAdvertising):
     __totalClicks = 0
 
     def __int__(self, id, name):
