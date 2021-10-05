@@ -5,8 +5,7 @@ class Advertiser(BaseAdvertising):
     __totalClicks = 0
 
     def __init__(self, id, name):
-        super(Advertiser, self).__init__()
-        self.__id = id
+        super(Advertiser, self).__init__(id)
         self.__name = name
 
     def getName(self):

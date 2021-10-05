@@ -4,8 +4,7 @@ from advertiser import Advertiser
 
 class Ad(BaseAdvertising):
     def __init__(self, id, title, imgUrl, link, adv: Advertiser):
-        super(Ad, self).__init__()
-        self.__id = id
+        super(Ad, self).__init__(id)
         self.__title = title
         self.__imgUrl = imgUrl
         self.__link = link

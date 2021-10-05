@@ -1,8 +1,8 @@
 class BaseAdvertising:
-    def __init__(self):
+    def __init__(self, id):
         self.__clicks = 0
         self.__views = 0
-        self.__id = 0
+        self.__id = id
 
     def getClicks(self) -> int:
         return self.__clicks
