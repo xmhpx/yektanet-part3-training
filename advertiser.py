@@ -4,7 +4,7 @@ from base_model import BaseAdvertising
 class Advertiser(BaseAdvertising):
     __totalClicks = 0
 
-    def __int__(self, id, name):
+    def __init__(self, id, name):
         self.__id = id
         self.__name = name
 

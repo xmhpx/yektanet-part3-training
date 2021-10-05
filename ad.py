@@ -3,7 +3,7 @@ from advertiser import Advertiser
 
 
 class Ad(BaseAdvertising):
-    def __int__(self, id, title, imgUrl, link, adv: Advertiser):
+    def __init__(self, id, title, imgUrl, link, adv: Advertiser):
         self.__id = id
         self.__title = title
         self.__imgUrl = imgUrl
