@@ -17,5 +17,5 @@ class BaseAdvertising:
         self.__views += 1
 
     @staticmethod
-    def describeMe(self):
+    def describeMe():
         print("I\'m the base model for Ad and Advertiser")

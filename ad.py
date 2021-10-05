@@ -33,7 +33,7 @@ class Ad(BaseAdvertising):
         self.__adv = adv
 
     @staticmethod
-    def describeMe(self):
+    def describeMe():
         print("I\'m the Ad class")
 
     def incClicks(self):

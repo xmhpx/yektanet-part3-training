@@ -16,15 +16,15 @@ class Advertiser(BaseAdvertising):
         self.__name = name
 
     @staticmethod
-    def help(self):
+    def help():
         print("I\'m helping")
 
     @staticmethod
-    def describeMe(self):
+    def describeMe():
         print("I\'m the Advertiser class")
 
     @staticmethod
-    def getTotalClicks(self):
+    def getTotalClicks():
         return Advertiser.__totalClicks
 
     def incClicks(self):
